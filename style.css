@@ -1,0 +1,278 @@
+*{
+   font-family: 'poppins', sans-serif;
+}
+.homecontainer{
+   height: 100vh;
+   color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.video{
+   position: absolute;
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+}
+.talk{
+   color: rgba(7, 227, 62, 0.733);
+   font-size: 40px;
+   font-style: italic;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mic{
+
+   color: rgba(7, 227, 62, 0.733);
+}
+.bynxt{
+   font-size: 20px;
+   color: #ffffff;
+}
+.paraguest{
+   font-size: 2rem;
+   font-weight: bold;
+}
+.position{
+   color: rgba(7, 227, 62, 0.733);
+   font-size: 2rem;
+}
+.homebutton1{
+   width: 250px;
+   background-color: rgb(37, 112, 203);
+   color: #ffffff;
+   height: 50px;
+   border-width: 0;
+}
+.homebutton2{
+   width: 250px;
+   background-color: transparent;
+   color: #ffffff;
+   height: 50px;
+   border: 2.5px #ffffff solid;
+}
+.amount{
+   font-size: 20px;
+   color: #ffffff;
+}
+.num{
+   text-decoration: line-through;
+   text-decoration-color: rgba(7, 227, 62, 0.733);
+   text-decoration-thickness:3px;
+}
+.free{
+   color: rgba(7, 227, 62, 0.733);
+   font-weight:bold;
+   font-size: 25px;
+}
+.Companies-container{
+   text-align: center;
+   background-color: #001c32;
+   height: 100%;
+}
+.headcompany{
+   color: #ffffff;
+   font-weight: bold;
+   font-family: serif;
+   font-size: 2.5rem;
+}
+.logo{
+   margin-right: 80px;
+   width: 140px;
+   height: 120px;
+}
+.insightscontainer{
+   height: 100%;
+   background-color: #0d2436;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.collectionhead{
+   color: #ffffff;
+}
+.parainsights{
+   color: #9aa5b1;
+   font-size: 1.1rem;
+}
+
+.listofseens{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   object-fit: cover;
+   overflow-x:scroll;
+   scrollbar-width: none;
+}
+.listbutton{
+   color: #ffffff;
+   background-color: transparent;
+   border-radius: 18px;
+   border: 2px #ffffff solid;
+   padding: 5px;
+   margin-right: 20px;
+   width:fit-content;
+}
+
+.sashankGujjulacontainer{
+   background-color: #31546f;
+   display: inline-block;
+   color: #ffffff;
+   height: 100%;
+   width: 300px;
+   border-radius: 15px;
+   margin-right: 16px;
+}
+.container{
+   text-align: left;
+}
+.time{
+   color: #9aa5b1;
+}
+.head{
+   font-size: 25px;
+}
+.img{
+   height: 250px;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   width: 300px;
+}
+.icon{
+   margin-left: 5px;
+}
+.testimonialcontainer{
+   height: 100%;
+   background-color: #001c32;
+   color: #ffffff;
+}
+.cardbutton{
+   font-weight: bold;
+   color: orangered;
+   background-color: transparent;
+   height: 50px;
+   border-radius: 10px;
+   border: 2px orangered solid;
+}
+.img2{
+   height: 30px;
+   width: 30px;
+}
+.maincardhead{
+   font-weight: bold;
+}
+.cardhead{
+   font-size: 20px;
+}
+.cards{
+   overflow-x: scroll;
+   scrollbar-width: none;
+}
+.card{
+   background-color: #31546f;
+   display: inline-block;
+   color: #ffffff;
+   height: 100%;
+   width: 400px;
+   border-radius: 15px;
+   margin-right: 10px;
+   text-align: left;
+}
+.profile{
+   height: 60px;
+   width: 60px;
+   border-radius: 30px;
+}
+.newcareer{
+   background-image: url('https://res.cloudinary.com/dn6nyozux/image/upload/v1731158874/xgyvkh5xs1u9tqh2mbcd.jpg');
+   background-size: cover;
+   height: 100%;
+}
+.headcareer{
+   color: #ffffff;
+   font-weight: bold;
+   font-size: 40px;
+}
+.paracareer{
+   color: #ffffff;
+   font-size: 20px;
+}
+.buttoncareer{
+   width: 250px;
+   background-color: transparent;
+   color: #ffffff;
+   border: 2px #ffffff solid;
+   height: 50px;
+}
+.contactsection{
+   background-color: #001c32;
+   height: 100%;
+   color: #ffffff;
+}
+.claim{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: left;
+}
+.claimhead{
+   font-size: 50px;
+}
+.contactinfo{
+   display: flex;
+   flex-direction: column;
+}
+.input{
+   width: 280px;
+   height: 40px;
+   background-color: #9aa5b151;
+   border: 0px;
+   border-radius: 5px;
+   color: #9aa5b1;
+   padding: 10px;
+}
+.otpbutton{
+   width: 280px;
+   background-color: rgb(37, 112, 203);
+   color: #ffffff;
+   height: 40px;
+   border: 0px;
+   border-radius: 5px;
+}
+.speakercontainer{
+   height: 100%;
+   background-color: #0d2436;
+}
+.speakerhead{
+   color: #ffffff;
+   font-size: 1.3rem;
+}
+.footercontainer{
+   background-color: #001c32;
+   height: 100%;
+   color: #9aa5b1;
+}
+footercontainer,p:hover{
+   color: #ffffff;
+   font-weight: 500;
+}
+.foothead{
+   color: #9aa5b1;
+   font-weight: bold;
+   font-size: 25px;
+}
+.payment{
+   width: 60px;
+   height: 35px;
+   border-radius: 5px;
+}
+.footsmallpara{
+   font-size: 0.9rem;
+}
+.medialogo{
+   width: 20px;
+   height: 20px;
+}
